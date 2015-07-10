@@ -1,0 +1,30 @@
+{
+  "name": "gulp-extract",
+  "version": "1.0.0",
+  "description": "A function for extracting file contents from a stream to a hash.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandcastle/gulp-extract.git"
+  },
+  "keywords": [
+    "gulp",
+    "extract",
+    "stream",
+    "contents",
+    "hash"
+  ],
+  "author": "Glenn Morton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandcastle/gulp-extract/issues"
+  },
+  "homepage": "https://github.com/sandcastle/gulp-extract#readme",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.2.5"
+  }
+}
