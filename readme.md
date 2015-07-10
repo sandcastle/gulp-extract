@@ -1,4 +1,4 @@
-# gulp-extract [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-extract [![Build Status](https://travis-ci.org/sandcastle/gulp-extract.svg)](https://travis-ci.org/sandcastle/gulp-extract)
 > A gulp plugin for extracting file contents into a hash
 
 ## Usage
