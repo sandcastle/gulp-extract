@@ -1,7 +1,7 @@
 {
   "name": "gulp-extract",
   "version": "1.0.0",
-  "description": "A function for extracting file contents from a stream to a hash.",
+  "description": "A gulp plugin for extracting file contents into a hash.",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/mocha test/**/*.js"
