@@ -6,10 +6,9 @@ var gutil = require('gulp-util');
 
 var PLUGIN_NAME = 'gulp-extract';
 
-
-module.exports.extract = function(hash){
+module.exports = function(hash){
   return through2.obj(function(file, enc, callback) {
-      
+
     if (file.isNull()) {
       return callback(null, file);
     }
@@ -19,8 +18,8 @@ module.exports.extract = function(hash){
       return callback();
     }
 
-    try { 
-      var name = path.basename(file.path, file.extname);  
+    try {
+      var name = path.basename(file.path, path.extname(file.path));  
       hash[name] = file.contents.toString();
     }
     catch (err) {
